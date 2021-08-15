@@ -1,4 +1,13 @@
 # CardsApp
+An app that shows a couple of cards.
+Main focus in this app to learn communicating between parent and child components.
+
+Deployed in: https://cards-app-three.vercel.app
+
+![1](https://user-images.githubusercontent.com/32294454/129475145-f68ff3c3-efae-4b2e-8db1-eb47c504fa5f.png)
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
