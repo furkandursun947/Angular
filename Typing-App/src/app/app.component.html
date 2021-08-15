@@ -1,0 +1,25 @@
+
+<div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      Typing Challenge
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <p class="has-text-centered">
+        <span [class]="compare(letter, userInput[i])" *ngFor="let letter of randomText.split(''); let i=index">{{ letter }}</span>
+      </p>
+    </div>
+    <input [value]="userInput" (input)="updateInput($event)" class="input" type="text" placeholder="Text input">
+
+    <div class="buttonHold">
+      <button (click)= "generateNewString()" class="button"><b>Generate new string</b></button>
+    </div>
+
+    <div class="success" *ngIf="userInput==randomText">
+      <p><b>Success</b></p>
+    </div>
+
+  </div>
+</div>

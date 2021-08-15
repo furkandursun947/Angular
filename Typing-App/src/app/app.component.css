@@ -1,0 +1,45 @@
+.card{
+  width: 500px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.card-header-title{
+  justify-content: center;
+}
+
+.input{
+  margin-top: 10px;
+}
+
+.buttonHold {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.success{
+  font-size: large;
+  color: green;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+.pending{
+  color: gray;
+}
