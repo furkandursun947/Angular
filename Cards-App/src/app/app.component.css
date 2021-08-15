@@ -5,5 +5,16 @@ body {
 }
 Notes.md
 */
+.container {
+  position: relative;
+}
 
 
+div{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
