@@ -1,4 +1,18 @@
-# TypingApp
+# Typing App
+
+This app generates random string and expects same string from the user.
+
+Deployed in: https://typing-app-frknwoljok-gmailcom.vercel.app
+
+![1](https://user-images.githubusercontent.com/32294454/129479739-a0baa430-654a-4889-a23c-559e15a138c0.png)
+
+![2](https://user-images.githubusercontent.com/32294454/129479741-392c2545-e355-4ee9-bbd6-33e48f63ef2d.png)
+
+![3](https://user-images.githubusercontent.com/32294454/129479745-d3c1168f-5c59-4ab2-adf4-5a01873c5057.png)
+
+![4](https://user-images.githubusercontent.com/32294454/129479747-b105c7db-62f2-42d0-9298-3c8d1f37e10c.png)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
