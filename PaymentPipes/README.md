@@ -1,5 +1,10 @@
 # PaymentPipes
 
+The main focus in this project is to learn how pipes works in Angular.
+
+![1](https://user-images.githubusercontent.com/32294454/129487308-71dafeef-dde6-46c4-8917-84f1a28230c8.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
 ## Development server
