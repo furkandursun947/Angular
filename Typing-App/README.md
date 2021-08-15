@@ -2,7 +2,7 @@
 
 This app generates random string and expects same string from the user.
 
-Deployed in: https://typing-app-frknwoljok-gmailcom.vercel.app
+Deployed in: https://typing-app-ten.vercel.app
 
 ![1](https://user-images.githubusercontent.com/32294454/129479739-a0baa430-654a-4889-a23c-559e15a138c0.png)
 
