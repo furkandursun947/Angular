@@ -1,4 +1,10 @@
 # Directives
+Main focus on this app was learning directives in Angular.
+
+![1](https://user-images.githubusercontent.com/32294454/129618928-a4bf9c15-ac07-4159-8c10-8468246e62ac.png)
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
