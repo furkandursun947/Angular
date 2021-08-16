@@ -1,0 +1,45 @@
+
+<nav>
+  <ul class="pagination mt-5">
+    <li
+    [class]="currentPage === 0 ? 'page-item disabled' : 'page-item'">
+    <a class="page-link" (click)="currentPage = currentPage - 1" href="#">Previous</a></li>
+    <ng-container *ngFor="let image of images; let i = index;">
+    <li class="page-item"
+    [ngClass]="{active:i === currentPage}"
+    *ngIf="checkPaginationIndex(i)"
+    >
+    <a class="page-link" (click)="currentPage = i" href="#">{{i + 1}}</a></li>
+    </ng-container>
+    <li
+    class="page-item"
+    [ngClass]=" {disabled: currentPage === images.length-1}">
+    <a class="page-link" (click)="currentPage = currentPage + 1" href="#">Next</a></li>
+  </ul>
+</nav>
+
+<div>
+  <h4 [appCustom]= " 'blue' ">{{images[currentPage].title}}</h4>
+  <img [src]="images[currentPage].url"/>
+</div>
+
+<div [ngSwitch] = "currentPage" class="mt-5">
+  <div *ngSwitchCase="0">
+    Current Page is one
+  </div>
+  <div *ngSwitchCase="1">
+    Current Page is two
+  </div>
+  <div *ngSwitchCase="2">
+    Current Page is three
+  </div>
+  <div *ngSwitchDefault>
+    Current Page is more than 3
+  </div>
+</div>
+
+<div>
+<ul *appTimes="5">
+  <li>Structural directive usage</li>
+</ul>
+</div>
